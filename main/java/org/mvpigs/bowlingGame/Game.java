@@ -3,10 +3,10 @@ package org.mvpigs.bowlingGame;
 import org.mvpigs.bowlingGame.ScoreCard;
 
 public class Game {
-	
+
 	private int total = 0;
-	
-	public Game(){
+
+	public Game() {
 		this.total = 0;
 	}
 
@@ -18,7 +18,7 @@ public class Game {
 		this.total = total;
 	}
 
-	public void roll(char pins){
+	public void roll(char pins) {
 		this.setTotal(this.getTotal() + ScoreCard.getSymbolValue(pins));
 	}
 

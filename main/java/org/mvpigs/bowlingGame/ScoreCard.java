@@ -16,12 +16,12 @@ public class ScoreCard {
 	
 	/* Constructores */
 	
-	public ScoreCard(){
+	public ScoreCard() {
 		this.scoreCard = "";
 		this.rolls = 0;
 	}
 	
-	public ScoreCard(String scoreCard){
+	public ScoreCard(String scoreCard) {
 		this.scoreCard = scoreCard;
 		this.rolls = scoreCard.length();
 	}
